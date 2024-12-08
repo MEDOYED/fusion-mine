@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #8d8d8d;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -117,3 +117,10 @@ a {
 /*================ reset css close ================================================================================================ */
 /*================ reset css close ================================================================================================ */
 /*================ reset css close ================================================================================================ */
+
+.container {
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}

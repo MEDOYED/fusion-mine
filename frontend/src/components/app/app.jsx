@@ -1,10 +1,12 @@
+import NavMenu from "../widgets/nav-menu/nav-menu";
+
 import "./app.css";
 
 function App() {
   return (
-    <>
-      <div className="bob">fnjffchnhn</div>
-    </>
+    <div className="container">
+      <NavMenu />
+    </div>
   );
 }
 
