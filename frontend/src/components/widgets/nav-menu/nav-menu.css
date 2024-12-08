@@ -1,34 +1,50 @@
 .nav {
   display: flex;
-  /* justify-content: center; */
   justify-content: space-between;
   background-color: #d11d1d;
   border-radius: 20px 35px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff4e6;
 }
 
 .nav__logo {
   width: 100px;
   margin-left: 30px;
+  padding: 8px 0;
 }
 
 .nav__links {
   display: flex;
-  /* margin: auto 0; */
   align-items: center;
 }
 
 .nav__link {
-  margin-right: 20px;
+  margin-right: 40px;
   cursor: pointer;
+}
+
+.nav__link:hover {
+  scale: 1.05;
+  transition: all 0.5s;
 }
 
 .nav__sm-links {
   display: flex;
-  /* margin: auto 0; */
   align-items: center;
+  margin-right: 40px;
 }
 
 .nav__sm-link {
   margin-right: 20px;
   cursor: pointer;
+}
+
+.nav__sm-link img {
+  width: 50px;
+}
+
+.nav__sm-link img:hover {
+  scale: 1.15;
+  transition: all 0.5s;
 }
