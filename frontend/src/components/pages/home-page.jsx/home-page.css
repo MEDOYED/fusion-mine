@@ -1,0 +1,4 @@
+.home-page__categories {
+  display: flex;
+  justify-content: space-between;
+}

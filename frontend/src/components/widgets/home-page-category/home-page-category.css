@@ -1,0 +1,18 @@
+.home-page__category {
+  width: 250px;
+  height: 50px;
+  /* background-color: #d11d1d; */
+  background: linear-gradient(45deg, #ff5e00, #df0202);
+  border-radius: 35px 15px;
+  transition: transform 0.2s;
+}
+
+.home-page__category:hover {
+  transform: scale(1.02);
+  background: linear-gradient(45deg, #df0202, #ff5e00);
+  cursor: pointer;
+}
+
+.home-page__category-text {
+  font-size: 20px;
+}
