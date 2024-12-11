@@ -1,4 +1,4 @@
-import HomePageCategories from "../../widgets/home-page-category/home-page-categories";
+import HomePageCategories from "../../widgets/home-page-categories/home-page-categories";
 
 import "./home-page.css";
 
